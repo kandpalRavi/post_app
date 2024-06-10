@@ -1,12 +1,13 @@
 // import {useState} from "react";
 import './App.css';
-import Posts from "./components/Post/Posts";
+import TittleCounter from './components/Timer/TittleCounter';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Posts/>
+      <TittleCounter/>
       </header>
     </div>
   );
